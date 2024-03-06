@@ -10,7 +10,7 @@ export default function MainContainer() {
       </div>
       <div className="right-container">
         <div className='top-blue-container'>
-            <h3 >
+            <h3>
                 Get Started with KoinX 
                 <br/>for FREE
             </h3>
@@ -19,6 +19,10 @@ export default function MainContainer() {
                 KoinX allows you to be more educated and aware of your tax reports.
             </p>
             <img src= {Frame} />
+            <div className='get-start-button'>
+            <button className='btn btn-light '>Get Started for FREE &rarr;</button>
+            </div>
+            
         </div>
       </div>
     </div>
