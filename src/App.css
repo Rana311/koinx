@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -43,29 +44,28 @@
 }
 
 
-
+.main-app{
+    background-color: #D3E0E6;
+}
 /* MainContainer */
 
 .main-container {
   display: flex; 
   border-left: 1px solid #ccc; 
   border-right: 1px solid #ccc;
-  /* background-color: black;
-  height: 100px; */
+
   margin: 80px;
 }
 
 .left-container {
   flex: 2; /* Make left container wider */
-  padding: 20px; /* Add padding for spacing */
-  background-color: red;
+  padding: 15px; /* Add padding for spacing */
+  /* background-color: red; */
 }
 
 .right-container {
   flex: 1; /* Make right container narrower */
-  padding: 20px; /* Add padding for spacing */
-  background-color: #0052fe;
-  border-radius: 4%;
+  padding: 15px; /* Add padding for spacing */
   /* height: ; */
 }
 
@@ -73,6 +73,8 @@
   padding: 30px;
   color: white;
   text-align: center;
+  background-color: #0052fe;
+  border-radius: 4%;
 
 }
 
@@ -83,4 +85,51 @@ h3{
 .get-start-button{
   margin-top: 20px;
   padding: 1px;
+}
+
+/* box1 */
+.box1-main{
+  background-color: red;
+  height: 400px;
+
+}
+
+.box2-main{
+  background-color: blue;
+  height: 400px;
+}
+
+
+.box3-main{
+  background-color: green;
+  height: 400px;
+
+}
+
+.box4-main{
+  background-color: yellow;
+  height: 400px;
+}
+
+.box5-main{
+  background-color: pink;
+  height: 400px;
+
+}
+
+.box6-main{
+  background-color: violet;
+  height: 400px;
+
+}
+
+.right-box2{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  
+}
+
+li{
+  list-style-type: none;
 }
